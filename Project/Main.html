@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfume</title>
+    <link rel="stylesheet" href="Main.css">
+
+    <script src="Main.js" defer></script>
+
+    <script src="https://js.stripe.com/v3/"></script>
+
+</head>
+<body>  
+    
+    <div class="header">
+
+        <nav>
+            <h1>Perfume</h1>
+            <ul>
+                <li>Home |</li>
+                <li><a href="#about">About Us</a> |</li>
+                <li><a href="#Login">Login Us</a> |</li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        
+
+    </div>
+
+    <div class="searchbar">
+
+        <input placeholder="Search">
+
+    </div>
+
+    <div class="products">
+
+        <main id="product-list">
+            <!-- Product items will be dynamically added here using JavaScript -->
+        </main>
+
+        <div class="=box">
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Vintage_Atomizer_Perfume_Bottle.JPG/220px-Vintage_Atomizer_Perfume_Bottle.JPG" alt="">
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nam sit, ratione iure voluptatem quia nobis blanditiis exercitationem magnam animi?</p>
+
+        </div>
+
+    </div>
+
+    <div id="about" class="about">
+
+        <h1>About Us</h1>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores ex, veritatis quaerat perspiciatis, necessitatibus dolor ad temporibus repudiandae iusto nostrum voluptatem vero odio amet ipsam ipsum fugit commodi dolore nam unde consectetur. Eligendi laudantium quaerat accusamus ratione, error commodi iure, odio ipsa illum quam nesciunt eaque quos aliquid placeat obcaecati necessitatibus laboriosam? Porro quis eos delectus aperiam eius earum ratione, vitae adipisci nesciunt maxime doloremque corporis animi aut architecto. Ex nisi architecto libero velit sequi, voluptatem similique ea magni quasi corporis doloribus labore fugiat, a, impedit consectetur repellendus cupiditate repellat perferendis officiis quaerat rerum illum facere hic. Et, quae beatae!</p>
+
+    </div>
+
+    <div id="contact" class="contact">
+
+        <h4>Contact</h4>
+
+        <p>+91 7845621236</p>
+
+        <p>perfume@gmail.com</p>
+
+        <p style="margin-top: 30px;font-size: 12px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem recusandae dolore tenetur a at reprehenderit excepturi aut quos, atque explicabo, voluptatum minus facere. Soluta, quidem! At deserunt vel non reprehenderit minus sint quidem. Nesciunt iusto, in expedita nam repellat sunt beatae rerum consectetur id animi. Soluta aliquam in voluptates natus quaerat? Dolorum, illo! Ex impedit hic dolorem facere labore, numquam dignissimos delectus aliquam, ipsa, nostrum id saepe a alias repellat earum neque minima eius nam non beatae suscipit dicta maiores est doloribus! Itaque voluptatibus facilis aliquid. Quas quia nulla accusantium? Neque sunt voluptatibus vel quia est vitae reiciendis deleniti.</p>
+
+    </div>
+
+    <div id="promoModal" class="modal">
+
+        <div class="modal-content">
+
+            <span class="close" onclick="closeModal()">&times;</span>
+            <h2>Special Promotion!</h2>
+            <p>Get 20% off on selected items. Use code: SPECIAL20</p>
+
+        </div>
+
+    </div>
+
+
+</body>
+
+<body>
+    <header>
+        <h1>Welcome to Perfume Store</h1>
+    </header>
+
+    <div id="Login" class="about">
+
+    <!-- User Authentication Section -->
+    <section id="auth-section">
+        <div id="login-form">
+            <h2>Login</h2>
+            <form>
+                <label for="login-email">Email:</label>
+                <input type="email" id="login-email" name="login-email" required>
+
+                <label for="login-password">Password:</label>
+                <input type="password" id="login-password" name="login-password" required>
+
+                <button type="button" onclick="login()">Login</button>
+            </form>
+        </div>
+
+        <div id="registration-form">
+            <h2>Register</h2>
+            <form>
+                <label for="register-name">Name:</label>
+                <input type="text" id="register-name" name="register-name" required>
+
+                <label for="register-email">Email:</label>
+                <input type="email" id="register-email" name="register-email" required>
+
+                <label for="register-password">Password:</label>
+                <input type="password" id="register-password" name="register-password" required>
+
+                <button type="button" onclick="register()">Register</button>
+            </form>
+        </div>
+    </section>
+
+    </div>
+
+</body>
+</html>

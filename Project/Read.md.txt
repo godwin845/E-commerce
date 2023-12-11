@@ -1,0 +1,10 @@
+Make API Requests:
+
+For example, you can use the test card number 4242 4242 4242 4242 with any future expiration date and any three-digit CVC to simulate a successful payment.
+
+
+Login:
+
+Email: user@example.com
+
+Password: password
